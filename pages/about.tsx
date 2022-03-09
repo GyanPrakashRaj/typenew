@@ -1,0 +1,79 @@
+import Container from 'components/Container';
+
+export default function About() {
+  return (
+    <Container title="About – Gyan Prakash Raj" type="article">
+      <article className="flex flex-col items-start justify-center w-full max-w-2xl mx-auto mb-16">
+        <h1 className="mb-4 text-3xl font-bold tracking-tight text-black md:text-5xl dark:text-white">
+          About Me
+        </h1>
+        <article className="mb-4 prose leading-6 text-gray-600 dark:text-gray-400">
+          <p>
+            {`Hi, I'm Gyan! I'm a passionate & entrepreneurial full-stack
+            developer from the Bihar, India who likes to push the web beyond it's
+            limits. I specialize in modern frontend using React & Svelte and I
+            also feel at home on the backend using Node/TypeScript. I'm interested 
+            in helping inspiring companies create innovative web apps that users love.`}
+          </p>
+          <p>
+            If you want to discuss an opportunity with me, feel free to{' '}
+            <a className="text-primary" href="https://api.whatsapp.com/send?phone=+917050945881&text=LET%27S_FIX_BUG_ON_TEA_SOMEDAY_YOU_AND_ME%F0%9F%92%9B">
+              reach out
+            </a>
+            . Sometimes I&apos;m available for hire for advice, mentoring or
+            consulting.
+          </p>
+        </article>
+        <article className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
+          <h2 className="mt-8 mb-4 text-2xl font-bold tracking-tight text-black md:text-4xl dark:text-white">
+            Skills
+          </h2>
+          <ul>
+            <li>Platforms: Web, Node.js, Mobile (iOS & Android)</li>
+            <li>Languages: JavaScript, TypeScript, HTML5, CSS3</li>
+            <li>
+              Frameworks: React, React Native, Redux, Express, Next.js, Svelte,
+              Sapper, jQuery
+            </li>
+            <li>
+              Tooling & Testing: react-testing-library, Webpack, Lerna, Babel,
+              Jest, Nock, Detox, Cypress, Git, Unix
+            </li>
+            <li>
+              Knowledgeable: CI/CD, Testing, Monorepos, Single Page Apps,
+              Accessibility, Server Side Rendering, Progressive Web Apps,
+              Internationalization
+            </li>
+            <li>
+              Services: Docker, Gitlab CI, MongoDB, Postgresql, BuddyBuild,
+              Mixpanel, Google Tag Manager, Heroku, AWS, Google Cloud, Jira,
+              Sentry, Bugsnag
+            </li>
+          </ul>
+        </article>
+        <article className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
+          <h2 className="mt-8 mb-4 text-2xl font-bold tracking-tight text-black md:text-4xl dark:text-white">
+            Education
+          </h2>
+          <ul>
+            <li>
+              B.Tech - Computer science Engineering - Session - 2020-24 (<i>Current CGPA - 9.66</i>)
+            </li>
+            <li>12th Science. Sawamy Vivekanand College of Science and Commerce
+              (<i>Percentage - 81.67%</i>).
+            </li>
+            <li>10th - Himalayan Residential School
+              (<i>C.G.P.A - 9.6</i>).
+            </li>
+          </ul>
+        </article>
+        <article className="mb-8 prose leading-6 text-gray-600 dark:text-gray-400">
+          <h2 className="mt-8 mb-4 text-2xl font-bold tracking-tight text-black md:text-4xl dark:text-white">
+            References
+          </h2>
+          <p>References, code samples and a copy of my resume upon request.</p>
+        </article>
+      </article>
+    </Container>
+  );
+}
