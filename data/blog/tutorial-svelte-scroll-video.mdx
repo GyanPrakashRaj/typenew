@@ -206,11 +206,3 @@ Any changes in the scroll position should immediately be reflected in a change i
 After adding the last piece of code the video scroll effect should work. To make the scroll effect more visible I've also added a heading and some content blocks. You can see the complete feature in the [Svelte REPL](https://svelte.dev/repl/850d34e7f22b4a13935a078b62c2e19a?version=3.29.7) below.
 
 ## Notes on performance
-
-The NYTimes is using optimized, small size videos on their pages. And with good reason: I've been doing experiments with larger (high definition) videos and it's impossible to get the performance right on all browsers: Safari performs surprisingly well, but Firefox and Chrome quickly start to stutter when the video gets larger.
-
-Apple is actually using a different technique to accomplish the effect on their pages: They've split up the video in separate frames (images) and they show a different frame when the scroll position changes. This [technique](https://css-tricks.com/lets-make-one-of-those-fancy-scrolling-animations-used-on-apple-product-pages/) performs suprisingly well, even for high definition video content. It does, however, come at a cost: All those frames have to be downloaded individually, adding up to huge download sizes. This is costly not just for mobile end users, but also if you're hosting them.
-
-If you want to use this technique and keep things simple I suggest using a small and optimized video just like the NYTimes does.
-
-For anyone interested in the performance aspects of this effect: I've tweeted about this here (with a demo site): https://twitter.com/vnglst/status/1307681819635183616
