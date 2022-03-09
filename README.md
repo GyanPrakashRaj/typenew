@@ -13,7 +13,7 @@
     <a href="https://typenew.vercel.app/"><strong>Go Visit here »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
+    <a href="https://typenew.vercel.app/">View Demo</a>
     ·
     <a href="https://github.com/GyanPrakashRaj/typenew/issues">Report Bug</a>
     ·
