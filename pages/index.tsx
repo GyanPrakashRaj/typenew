@@ -40,7 +40,7 @@ export default function Home() {
         </h3>
         <section className="flex gap-6 flex-col md:flex-row">
           <BlogPostCard
-            title="Live user cursors with Phoenix Presence"
+            title="Searching and Sorting Algorithms"
             slug="phoenix-live-cursors"
           />
           <BlogPostCard
