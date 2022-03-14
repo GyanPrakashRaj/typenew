@@ -32,7 +32,7 @@ export default function BlogPostCard({ title, slug }) {
             />
           </svg>
           <span className="ml-2 align-baseline capsize">
-            {views ? new Number(views).toLocaleString() : '–––'}
+            {views ? new Number(views).toLocaleString() : '029'}
           </span>
         </div>
       </a>
